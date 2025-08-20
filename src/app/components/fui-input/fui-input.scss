@@ -47,7 +47,7 @@
     caret-color: var(--colorBrandForeground, #0078d4);
 
     &::placeholder {
-      color: var(--colorNeutralBackground3);
+      color: var(--colorNeutralForeground3);
     }
 
     &:disabled {
@@ -97,7 +97,7 @@
   }
 
   &:focus-within {
-    border-color: var(--colorStrokeFocus2);
+    border-color: var(--colorNeutralStroke1);
     z-index: 1;
 
     &::after {
